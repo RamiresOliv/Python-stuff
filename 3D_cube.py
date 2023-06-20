@@ -3,6 +3,8 @@ import numpy as np
 from math import *
 import sys
 
+# only pure pythom. Creating a 3D cube and with math transform it in 2D, for pygame print it ;)
+
 size = (width, height) = 800, 600
 pygame.init()
 screen = pygame.display.set_mode(size)
